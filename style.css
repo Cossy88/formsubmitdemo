@@ -737,6 +737,21 @@ footer{
     border-radius: 10px;
 }
 
+#map{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 8vw;
+
+
+}
+
+#map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 
 
@@ -1024,6 +1039,16 @@ footer{
         width: 100%;
         height: 100%; 
     }
+
+    /*Contact*/
+
+    #contact{
+        padding: 8vw 4vw;
+    }
+
+    #contact.getin{
+        width: 250px;
+    }
   
 }
 
@@ -1039,6 +1064,22 @@ footer{
     #course-inner .overview .course-head span{
         font-size: 22px;
     }
+
+    /*Contact*/
+
+    #contact{
+        padding: 8vw 4vw;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #contact .getin{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
 }
 
 
